@@ -1,0 +1,32 @@
+:root {
+    --pure-white: #FFFFFF;
+    --dark-grey: #3B3B3B;
+
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 60px;
+}
+
+.search-container input {
+    box-shadow: 4px 8px 14px black;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+
+    background-color: var(--pure-white);
+    border-radius: 8px;
+
+}
+
+.search-container img {
+    position: absolute;
+    transform: translateY(50%);
+    padding-left: 320px;
+    width: 20px;
+    pointer-events: none;
+}

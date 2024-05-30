@@ -1,0 +1,32 @@
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 4px solid;
+    border-radius: 8px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.check {
+    margin: 0 20px 0 10px;
+}
+
+.check-done {
+    color: green;
+}
+
+.check:hover {
+    color: yellow;
+}
+
+.delete {
+    margin: 0 10px 0 20px;
+}
+
+.delete:hover {
+    color: red;
+}
