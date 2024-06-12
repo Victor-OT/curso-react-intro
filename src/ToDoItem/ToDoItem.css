@@ -11,22 +11,16 @@ li {
     text-decoration: line-through;
 }
 
-.check {
+.icon {
     margin: 0 20px 0 10px;
+    width: 34px;
 }
 
-.check-done {
-    color: green;
+.icon-check {
+    
 }
 
-.check:hover {
-    color: yellow;
-}
-
-.delete {
-    margin: 0 10px 0 20px;
-}
-
-.delete:hover {
-    color: red;
+.icon-delete {
+    
+    width: 24px;
 }

@@ -1,0 +1,7 @@
+.icon-delete:hover .Icon-svg {
+    fill: red;
+}
+
+.icon-check:hover .Icon-svg {
+    fill: green;
+}
