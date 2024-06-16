@@ -1,0 +1,52 @@
+:root {
+    --pure-white: #FFFFFF;
+    --dark-grey: #3B3B3B;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px;
+    font-size: 34px;
+}
+
+textarea {
+    margin: 10px;
+    width: 380px;
+    height: 80px;
+    border: 4px solid var(--pure-white);
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.todoform-button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 400px;
+}
+
+.todoform-button {
+    border: 4px solid;
+    border-radius: 8px;
+    color: var(--pure-white);
+    font-family: 'Montserrat';
+    background: none;
+    font-size: 24px;
+}
+
+.todoform-cancel {
+    margin-left: 8px;
+}
+
+.todoform-add {
+    
+}

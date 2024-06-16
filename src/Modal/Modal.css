@@ -1,0 +1,24 @@
+:root {
+    --pure-white: #FFFFFF;
+    --dark-grey: #3B3B3B;
+
+}
+
+.modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.Modal {
+    background-color: var(--dark-grey);
+    border: 4px solid;
+    border-radius: 8px;
+    margin: 60px;
+    box-shadow: 4px 8px 14px black;
+    color: var(--pure-white);
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding: 30px 30px;
+}
